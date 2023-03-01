@@ -1,0 +1,163 @@
+:root{
+    --bs-heading-color: #424242;
+    --bs-body-color:#757575;
+    --bs-subheading-color:#5B5B5B
+}
+
+body {
+    background-color: #E5E5E5;
+}
+
+.subhead-color{
+    color: var(--bs-subheading-color)
+}
+
+.bg-img-header {
+    background-image: url("./img/bg.png");
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg-img-stats {
+    background-image: url("./img/Stats.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.my-header {
+    min-height: 800px;
+}
+
+.my-card-head {
+    bottom: 100px;
+    right: 56px;
+}
+
+.text-font-h1 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: 0.01em;
+}
+
+.text-head {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+}
+
+.text-font-p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.bd-box {
+    box-sizing: border-box;
+}
+
+.w-50p {
+    width: 50px;
+    height: 50px;
+}
+
+.w-90 {
+    width: 90%;
+    top: 25px;
+    left: 5%;
+}
+
+.w-80 {
+    width: 80%;
+    top: 50px;
+    left: 10%;
+} 
+
+.points_top {
+    z-index: 0;
+    position: absolute;
+    left: 100px;
+    top: 150px;
+    width: 150px;
+}
+
+.points_left {
+    z-index: 0;
+    position: absolute;
+    right: 50px;
+    top: 100px;
+    width: 250px;
+}
+
+.points_bot {
+    z-index: 0;
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+    width: 150px;
+}
+
+.w-120 {
+    width: 120px;
+}
+
+.my-btn {
+    background: #F1F1F1;
+    color: #ACACAC;
+}
+
+.bg-img-card-1 {
+    background-image: url("./img/Group557.png");
+}
+
+.bg-img-card-2 {
+    background-image: url("./img/Group558.png");
+}
+
+.bg-img-card-3 {
+    background-image: url("./img/Group559.png");
+}
+
+.bg-img-card-4 {
+    background-image: url("./img/Group560.png");
+}
+
+.my-card {
+    min-height: 256px;
+    min-width: 340px;
+}
+
+.carousel {
+    left: 130px;
+}
+
+.round{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #D3E5FF;
+}
+.round:hover{
+    background-color: #537dbb;
+}
+.round-active{
+    background-color: #0056D6;
+}
+.indicators-group{
+    margin-top: 100px;
+}
+
+.bg-light-blue{
+    background-color: #f6fbfd;   
+}
+
+.h-120{
+  min-height: 500px;  
+}
